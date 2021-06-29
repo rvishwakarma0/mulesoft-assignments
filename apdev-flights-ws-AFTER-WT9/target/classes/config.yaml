@@ -1,0 +1,21 @@
+http:
+  port: "8081"
+  
+american:
+  host: "americanflightsapi2proxy.us-e2.cloudhub.io"
+  port: "80"
+  basepath: "/"
+  protocol: "HTTP"
+  client_id: "cdeaf8ff345d4f23971624f05434bb87"
+  client_secret: "7E2999b497A342e0a465814FF5D7F34b"
+
+training:
+  host: "ilt.learn.mulesoft.com"
+  port: "80"
+  basepath: "/"
+  protocol: "HTTP"
+  
+delta:
+  wsdl: "http://ilt.learn.mulesoft.com/delta?wsdl"
+  service: "TicketServiceService"
+  port: "TicketServicePort"
